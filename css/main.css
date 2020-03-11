@@ -13,9 +13,6 @@ header{
         padding: 20px;
         max-width: 320px;
 }
-main{
-    margin-top: 80px;
-}
 nav>ul>li>a{ 
     align-items: center;
     text-decoration: none;
@@ -42,10 +39,20 @@ ul{
     align-items: center;
 }
 .jumbotron{
-    height: 100px;
+    height: 150px;
     max-width: 100vw;
     margin: 10px;
     
+}
+.ampoule_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ampoule{
+    height: 200px;
+    max-width: 100vw;
+    margin: 10px;
 }
 h1{
     font-size: 40px;
@@ -128,4 +135,54 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+
 /* ----------------------------------------------Contact------------------------------------------------------------ */
+.neurones_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.neurones{
+    width: 100%;
+    height: 300px;
+}
+.social_icons_contact{
+    height: 30px;
+    padding: 5px;
+}
+.social_icons_contact_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+.adress_container1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adresse_ligne1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/* ----------------------------------------------portfolio---------------------------------------------------------- */
+
+.image_pochette_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.pochette{
+    width: 100%;
+    height: 300px;
+}
