@@ -13,6 +13,8 @@ header{
         padding: 20px;
         max-width: 320px;
 }
+
+
 nav>ul>li>a{ 
     align-items: center;
     text-decoration: none;
@@ -72,6 +74,22 @@ h1{
     align-items: center;
     text-align: center;
 }
+@media (min-width: 790px){
+    body{
+        max-width: 790vw;
+    }
+    header{
+        max-width: 790px;
+        flex-direction: row;
+    }
+    nav{
+        display: flex;
+    }
+    #main_nav.show{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 /* --------------------------------------footer-------------------------------------------------------------- */
 footer{
     background-color: #3f3f3f;
@@ -87,6 +105,7 @@ footer{
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     font-weight: bold;
+    color: grey;
 }
 .mentions_legales0{
     text-align: center;
@@ -105,6 +124,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: grey;
 }
 
 .adress_et_contact_container{
@@ -113,6 +133,7 @@ footer{
     justify-content: center;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+
 }
 .lien_tel_mail{
     font-weight: bold;
